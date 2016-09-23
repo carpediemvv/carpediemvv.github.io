@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion">
+<html class="theme-next mist use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -84,22 +84,22 @@
 
 
 
-<meta name="description" content="不全职不全能，又不百无一用的人">
+<meta name="description" content="不全职不全能，又不百无一用">
 <meta property="og:type" content="website">
 <meta property="og:title" content="CarpeDiemVV">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="CarpeDiemVV">
-<meta property="og:description" content="不全职不全能，又不百无一用的人">
+<meta property="og:description" content="不全职不全能，又不百无一用">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CarpeDiemVV">
-<meta name="twitter:description" content="不全职不全能，又不百无一用的人">
+<meta name="twitter:description" content="不全职不全能，又不百无一用">
 
 
 
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Pisces',
+    scheme: 'Mist',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
@@ -191,16 +191,6 @@
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
             标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-commonweal">
-          <a href="/404.html" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
-            
-            公益404
           </a>
         </li>
       
@@ -298,10 +288,10 @@
         
           
             <p><strong>尽量不要转载，好多地方待完善。有问题的地方希望提出来共同交流qq240027695。以免误导他人。谢谢：）</strong></p>
-<h1 id="Toolbar重要属性详解"><a href="#Toolbar重要属性详解" class="headerlink" title="Toolbar重要属性详解"></a><strong>Toolbar重要属性详解</strong></h1><p>###1.<strong>toolbar主题设置</strong><br> 设置AppTheme继承NoActionBar，隐藏原来的ActionBar<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&lt;style name=&quot;AppTheme&quot; parent=&quot;Theme.AppCompat.Light.NoActionBar&quot;&gt;</div><div class="line">       &lt;!-- Customize your theme here. --&gt;</div><div class="line">       &lt;item name=&quot;colorPrimary&quot;&gt;@color/colorPrimary&lt;/item&gt;</div><div class="line">       &lt;item name=&quot;colorPrimaryDark&quot;&gt;@color/colorPrimaryDark&lt;/item&gt;</div><div class="line">       &lt;item name=&quot;colorAccent&quot;&gt;@color/colorAccent&lt;/item&gt;</div><div class="line">       &lt;itemname=&quot;android:textColorPrimary&quot;&gt;@color/textColorPrimary&lt;/item&gt;</div><div class="line">       &lt;item name=&quot;colorControlNormal&quot;&gt;@color/colorControlNormal&lt;/item&gt;</div><div class="line">       &lt;!--itemBackground设置menu菜单背景色--&gt;</div><div class="line">       &lt;!--&lt;item name=&quot;android:itemBackground&quot;&gt;#3F51B5&lt;/item&gt;--&gt;</div><div class="line">       &lt;item name=&quot;actionOverflowMenuStyle&quot;&gt;@style/MenuStyle&lt;/item&gt;</div><div class="line">   &lt;/style&gt;</div></pre></td></tr></table></figure></p>
-<p>###2.<strong>布局文件引入</strong></p>
+<h1 id="Toolbar重要属性详解"><a href="#Toolbar重要属性详解" class="headerlink" title="Toolbar重要属性详解"></a>Toolbar重要属性详解</h1><p>###toolbar主题设置<br> 设置AppTheme继承NoActionBar，隐藏原来的ActionBar<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&lt;style name=&quot;AppTheme&quot; parent=&quot;Theme.AppCompat.Light.NoActionBar&quot;&gt;</div><div class="line">       &lt;!-- Customize your theme here. --&gt;</div><div class="line">       &lt;item name=&quot;colorPrimary&quot;&gt;@color/colorPrimary&lt;/item&gt;</div><div class="line">       &lt;item name=&quot;colorPrimaryDark&quot;&gt;@color/colorPrimaryDark&lt;/item&gt;</div><div class="line">       &lt;item name=&quot;colorAccent&quot;&gt;@color/colorAccent&lt;/item&gt;</div><div class="line">       &lt;itemname=&quot;android:textColorPrimary&quot;&gt;@color/textColorPrimary&lt;/item&gt;</div><div class="line">       &lt;item name=&quot;colorControlNormal&quot;&gt;@color/colorControlNormal&lt;/item&gt;</div><div class="line">       &lt;!--itemBackground设置menu菜单背景色--&gt;</div><div class="line">       &lt;!--&lt;item name=&quot;android:itemBackground&quot;&gt;#3F51B5&lt;/item&gt;--&gt;</div><div class="line">       &lt;item name=&quot;actionOverflowMenuStyle&quot;&gt;@style/MenuStyle&lt;/item&gt;</div><div class="line">   &lt;/style&gt;</div></pre></td></tr></table></figure></p>
+<p>###布局文件引入</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;android.support.v7.widget.Toolbar</div><div class="line">      android:id=&quot;@+id/id_toolbar&quot;</div><div class="line">      android:layout_height=&quot;wrap_content&quot;</div><div class="line">      android:layout_width=&quot;match_parent&quot;</div><div class="line">      android:background=&quot;?attr/colorPrimary&quot;/&gt;</div></pre></td></tr></table></figure>
-<p>###3.<strong>Activity控件主要代码</strong><br>这里的实现对menu菜单响应有两种方式<br>    第一种方式：</p>
+<p>###Activity控件主要代码<br>这里的实现对menu菜单响应有两种方式<br>    第一种方式：</p>
 <ul>
 <li>把toolbar当成容器布局控件，可以在里面加任意布局，并且menu菜单自己实现inflate。在用setOnMenuItemClickListener监听item事件。</li>
 </ul>
@@ -316,7 +306,7 @@
 </li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div></pre></td><td class="code"><pre><div class="line">protected void onCreate(Bundle savedInstanceState) &#123;</div><div class="line">       super.onCreate(savedInstanceState);</div><div class="line">       setContentView(R.layout.activity_main);</div><div class="line">       Toolbar toolbar = (Toolbar) findViewById(R.id.id_toolbar);</div><div class="line">       // App Logo</div><div class="line">       toolbar.setLogo(R.mipmap.ic_launcher);</div><div class="line">       // Title</div><div class="line">       toolbar.setTitle(&quot;四叶草&quot;);</div><div class="line">       // Sub Title</div><div class="line">       toolbar.setSubtitle(&quot;Sub title&quot;);</div><div class="line">       //Navigation Icon</div><div class="line">       toolbar.setNavigationIcon(R.drawable.bottom_home_tab_bg);</div><div class="line">       setSupportActionBar(toolbar);</div><div class="line">       init();</div><div class="line">   &#125;</div><div class="line">     @Override</div><div class="line">   public boolean onCreateOptionsMenu(Menu menu) &#123;</div><div class="line">       getMenuInflater().inflate(R.menu.test, menu);</div><div class="line">       return true;</div><div class="line">   &#125;</div><div class="line"></div><div class="line">   @Override</div><div class="line">   public boolean onOptionsItemSelected(MenuItem item) &#123;</div><div class="line">     int id = item.getItemId();</div><div class="line">       //noinspection SimplifiableIfStatement</div><div class="line">       if (id == R.id.action_publish) &#123;</div><div class="line">           Toast.makeText(MainActivity.this, &quot;action_publish&quot; , Toast.LENGTH_SHORT).show();</div><div class="line">       &#125;</div><div class="line">       if (id == R.id.action_pick_pic) &#123;</div><div class="line">           Toast.makeText(MainActivity.this, &quot;action_pick_pic&quot; , Toast.LENGTH_SHORT).show();</div><div class="line">       &#125;</div><div class="line">       if (id == R.id.action_take_pic) &#123;</div><div class="line">           Toast.makeText(MainActivity.this, &quot;action_take_pic&quot; , Toast.LENGTH_SHORT).show();</div><div class="line">       &#125;</div><div class="line">       return super.onOptionsItemSelected(item);</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
-<p>###4.细节设置<br>    绝大部分的样式设置都可以在Style中完成。</p>
+<p>###细节设置<br>    绝大部分的样式设置都可以在Style中完成。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">&lt;style name=&quot;AppTheme&quot; parent=&quot;Theme.AppCompat.Light.NoActionBar&quot;&gt;</div><div class="line">      &lt;!-- Customize your theme here. --&gt;</div><div class="line">      &lt;item name=&quot;colorPrimary&quot;&gt;@color/colorPrimary&lt;/item&gt;</div><div class="line">      &lt;item name=&quot;colorPrimaryDark&quot;&gt;@color/colorPrimaryDark&lt;/item&gt;</div><div class="line">      &lt;item name=&quot;colorAccent&quot;&gt;@color/colorAccent&lt;/item&gt;</div><div class="line">      //菜单字体颜色</div><div class="line">      &lt;itemname=&quot;android:textColorPrimary&quot;&gt;@color/textColorPrimary&lt;/item&gt;</div><div class="line">      //菜单图标颜色</div><div class="line">      &lt;item name=&quot;colorControlNormal&quot;&gt;@color/colorControlNormal&lt;/item&gt;</div><div class="line">      &lt;!--itemBackground设置menu菜单背景色--&gt;</div><div class="line">      &lt;!--&lt;item name=&quot;android:itemBackground&quot;&gt;#3F51B5&lt;/item&gt;--&gt;</div><div class="line">      &lt;item name=&quot;actionOverflowMenuStyle&quot;&gt;@style/MenuStyle&lt;/item&gt;</div><div class="line">  &lt;/style&gt;</div><div class="line">  &lt;style name=&quot;OverflowButtonStyle&quot; parent=&quot;@android:style/Widget.ActionButton.Overflow&quot;&gt;</div><div class="line">      &lt;!--这里更改menu菜单图标--&gt;</div><div class="line">    &lt;!--  &lt;item name=&quot;android:src&quot;&gt;@mipmap/ic_launcher&lt;/item&gt;--&gt;</div><div class="line">  &lt;/style&gt;</div><div class="line">  &lt;style name=&quot;MenuStyle&quot; parent=&quot;@style/Widget.AppCompat.Light.PopupMenu.Overflow&quot;&gt;</div><div class="line">   &lt;!--是否遮盖住标题栏--&gt;</div><div class="line">      &lt;item name=&quot;overlapAnchor&quot;&gt;false&lt;/item&gt;</div><div class="line">      &lt;!--itemBackground设置menu菜单背景色与上面的android:itemBackground作用相同--&gt;</div><div class="line">      &lt;item name=&quot;android:popupBackground&quot;&gt;#3F51B5&lt;/item&gt;</div><div class="line">      &lt;!--距离标题栏的距离--&gt;</div><div class="line">      &lt;!--&lt;item name=&quot;android:dropDownVerticalOffset&quot;&gt;29dip&lt;/item&gt;--&gt;</div><div class="line">  &lt;/style&gt;</div></pre></td></tr></table></figure>
 <p>####Menu菜单的搜索设置</p>
 <ul>
@@ -592,7 +582,7 @@
                src="/images/avatar.png"
                alt="饭特稀" />
           <p class="site-author-name" itemprop="name">饭特稀</p>
-          <p class="site-description motion-element" itemprop="description">不全职不全能，又不百无一用的人</p>
+          <p class="site-description motion-element" itemprop="description">不全职不全能，又不百无一用</p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
@@ -651,7 +641,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Pisces
+    NexT.Mist
   </a>
 </div>
 
@@ -716,13 +706,6 @@
 
   
   
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
-
-
 
   
 
